@@ -57,6 +57,54 @@ li,a {
     font-family: "Intel",sans-serif;
     color: tomato;
 }
+.catagories h1 {
+    font-size: 88px;
+    font-weight: 700;
+    margin-bottom: 48px;
+}
+.catagories h2 {
+    font-size: 48px;
+    font-weight: 700;
+    color: black;
+    margin-bottom: 48px;
+}
+.catagories h4 {
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 16px;
+
+}
+.midnight-party {
+    border-radius: 16px;
+    background: linear-gradient(90180.00deg,rgb(7,2,17),rgba(7,2,17,0)100%),url(image/Vectorrr.png);
+    background-size: cover;
+    background-position: center;
+    background-size: cover;
+    color: white;
+    width: 1320px;
+    height: 600px;
+    margin: 120px auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#midnight-party {
+    width: 600px;
+}
+#midnight-party h1 {
+    font-size: 64px;
+    font-weight: 900;
+    line-height: 88px;
+    margin-bottom: 40px;
+}
+.btn {
+    margin-top: 40px;
+    font-size: 20px;
+    font-weight: 700;
+    background: none;
+    border: none;
+    color: white;
+}
     
 
     
