@@ -161,6 +161,115 @@ li,a {
 .offer-other-title {
     width: 275px;
 }
-    
+.holidays {
+    width: 1320px;
+    height:  985;
+    margin: -120px auto;
+    text-align: center;
+}
+.holidays p {
+    font-family:"inter", sans-serif ;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 28px;
 
+}
+.holidays span {
+    color: red;
+}
+
+.holidays h1 {
+    font-size: 72px;
+    font-weight: 900;
+    margin-bottom: 28px;
+}
+
+.holidays .holy-img-1 {
+    width: 600px ;
+    margin-bottom: 28px;
+}
+
+/*gifts section*/
+.gifts {
+    width: 1320px;
+    height: 1160px;
+    margin: 120px auto;
+}
+.gifts .gift-title {
+    color: red;
+    font-size: 24px ;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+ 
+.gifts h5 ,.subscribe-content h1 {
+    font-size: 40px;
+    font-weight: 900;
+    line-height: 60px;
+    margin-bottom: 16px;
+}
+.gift {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);gap: 25px;
+    margin-top: 48px;
+    ma
+}
+.gift-card img {
+    width: 400px;
+    height: 400px;
     
+}
+/*Gifts card end*/
+/*Subscribe Start*/
+.subscribe-content {
+    border-radius: 16px;
+    background: rgba(255,0,0,0.05);
+    width: 1320px;
+    height: 616px;
+    margin: -100px auto;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 120px;
+
+}
+.subscribe-content input{
+    width: 550px;
+    height: 60px;
+    border-radius: 50px;
+    border: none;
+}
+.subscribe-content button{
+    padding:20px 30px ;
+    border: none;
+    border-radius: 0 50px 50px 0;
+    background-color: red;
+    color: white;
+    font-size: 15px;
+    margin-left: -50px;
+    margin-top: 40px;
+    
+}
+/*End subscribe*/
+/*End footer*/
+footer{
+    background: rgb(7,2,17);
+    color: white;
+    padding: 50px 0;
+
+}
+.content{
+    width: 1320px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+
+}
+.social{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 360px;
+}
